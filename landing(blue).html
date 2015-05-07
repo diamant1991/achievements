@@ -21,16 +21,16 @@
   <body>
   <div class="container-fluid">
     <div class="row header">
-      <div class="col-sm-6 head">
+      <div class="col-sm-5 col-md-6 col-xs-7 head">
           <div class="row">
               <h2><button type="button" class="navbar-btn" data-toggle="collapse" data-target="#navigation"></button>Продающий лендинг</h2>
           </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-7 col-md-6 col-xs-5">
           <div class="row">
-              <div class="telephone clearfix">
+              <div class="telephone telephone-head clearfix">
                   <div class="tel-block">8099 667 86 43</div>
-                  <a class="feedback">Заказать звонок</a>
+                  <a class="feedback hidden-xs">Заказать звонок</a>
               </div>
           </div>
       </div>
@@ -125,7 +125,7 @@
                   <div class="our-advantages">
                       <h2>Наши преимущества</h2>
                       <div class="our-block">
-                          <div class="our-container">
+                          <div class="our-container clearfix">
                               <div class="adv-block">
                                   <img src="images/adv.png" alt="">
                                   <p>Краткое описание</p>
@@ -174,18 +174,19 @@
                            <span>минут</span>
                            <span>секунд</span>
                        </div>
+                       <a href="#" class="visible-xs timer-send">Заказать товар</a>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="col-md-5 col-sm-12">
+          <div class="col-md-5 col-sm-12 hidden-xs">
               <div class="row">
                   <div class="product">
-                      <h2>Заказать продукт</h2>
-                      <form>
-                          <input type="text" placeholder="ваше имя"> <br>
-                          <input type="text" placeholder="ваш e-mail"> <br>
-                          <input type="text" placeholder="ваш телефон" class="telephone"> <br>
+                      <h2 class="hidden-sm hidden-xs">Заказать продукт</h2>
+                      <form class="clearfix">
+                          <input type="text" placeholder="ваше имя"> <br class="hidden-sm hidden-xs">
+                          <input type="text" placeholder="ваш e-mail"> <br class="hidden-sm hidden-xs">
+                          <input type="text" placeholder="ваш телефон" class="telephone"> <br class="hidden-sm hidden-xs">
                           <input type="submit" value="Заказать">
                       </form>
                   </div>
@@ -203,11 +204,12 @@
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
                               <div class="item active clearfix">
+                                    <h2 class="visible-xs">Заголовок товара</h2>
                                     <div class="product-img">
                                         <img src="images/product.jpg" alt="">
                                     </div>
                                     <div class="product-text">
-                                        <h2>Заголовок товара</h2>
+                                        <h2 class="hidden-xs">Заголовок товара</h2>
                                         <p>Lorem Ipsum боль сидеть Амет, consectetur adipiscing Элит. Nulla Квам велит, vulputate pharetra ЕС включенные в другие группировки, Маттис переменного тока neque. DUIs vulputate Commodo Lectus, AC blandit Элит tincidunt ID. Sed rhoncus, tortor СЭД eleifend tristique, tortor mauris molestie элит, и др лацинией Ipsum Квам включенные в другие группировки дуй. Quisque включенные в другие группировки mauris сидеть Амет Элит iaculis Pretium сидеть Амет Quis Magna. Aenean велит Одио, Elementum в Темпус-ут, vehicula ЕС диам. Pellentesque rhoncus aliquam Маттис. Ut vulputate эрос Sed Felis sodales включенные в другие </p>
                                         <a href="#" class="p-link">Заказать продукт</a>
                                     </div>
@@ -250,10 +252,10 @@
                         </div>
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#text-slider" data-slide="prev">
+          <a class="left carousel-control hidden-xs" href="#text-slider" data-slide="prev">
           <span class="carousel-left text-slide"></span>
           </a>
-          <a class="right carousel-control" href="#text-slider" data-slide="next">
+          <a class="right carousel-control hidden-xs" href="#text-slider" data-slide="next">
           <span class="carousel-right text-slide"></span>
           </a>
         </div>
@@ -429,11 +431,11 @@
           <div class="col-md-5 col-sm-12">
               <div class="row">
                   <div class="product">
-                      <h2>Заказать продукт</h2>
-                      <form>
-                          <input type="text" placeholder="ваше имя"> <br>
-                          <input type="text" placeholder="ваш e-mail"> <br>
-                          <input type="text" placeholder="ваш телефон" class="telephone"> <br>
+                      <h2 class="hidden-sm hidden-xs">Заказать продукт</h2>
+                      <form class="clearfix">
+                          <input type="text" placeholder="ваше имя"> <br class="hidden-sm hidden-xs">
+                          <input type="text" placeholder="ваш e-mail"> <br class="hidden-sm hidden-xs">
+                          <input type="text" placeholder="ваш телефон" class="telephone"> <br class="hidden-sm hidden-xs">
                           <input type="submit" value="Заказать">
                       </form>
                   </div>
@@ -511,17 +513,19 @@
           <div class="question-block">
               <form>
                   <fieldset class="ques-field clearfix">
-                      <div class="input-block">
-                        <input type="text" placeholder="ваше имя">
-                      </div>
-                      <div class="input-block">
-                          <input type="text" placeholder="ваш e-mail">
-                      </div>
-                      <div class="input-block">
-                          <input type="text" placeholder="ваш телефон" class="telephone">
-                      </div>
-                      <div class="input-block">
-                          <input type="submit" value="Заказать">
+                       <div class="field-block clearfix">
+                          <div class="input-block">
+                            <input type="text" placeholder="ваше имя">
+                          </div>
+                          <div class="input-block">
+                              <input type="text" placeholder="ваш e-mail">
+                          </div>
+                          <div class="input-block">
+                              <input type="text" placeholder="ваш телефон" class="telephone">
+                          </div>
+                          <div class="input-block">
+                              <input type="submit" value="Заказать">
+                          </div>
                       </div>
                   </fieldset>
               </form>
