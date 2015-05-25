@@ -686,6 +686,26 @@ body{
 	.timer-send:hover{
 		background-color: #0099ff;
 	}
+.item h2.visible-xs{
+	text-align: center;
+	font-size: 24px;
+	font-family: 'PT Sans',sans-serif;
+	font-weight: 700;
+	color: #999;
+}
+	.item h2.visible-xs:after{
+		content: "";
+		display: block;
+		width: 325px;
+		margin: auto;
+		margin-top: 20px;
+		border-bottom: 1px solid #2db1d7;
+	}
+
+
+
+
+
 
 @media(min-width: 992px){
 	.navbar-btn{
@@ -873,5 +893,129 @@ body{
 	.ccounter-text span:nth-child(4){
 		margin-left: 55px;
 	}
-
+	.product-img,.product-text{
+		float: none;
+		margin-left: 0;
+	}
+	.product-text{
+		width: 100%;
+		padding: 0;
+		margin-top: 15px;
+		text-align: center;
+	}
+	.product-img{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.carousel-inner .product-img img{
+		width: 93%;
+	}
+	.s-item-block{
+		width: 400px;
+		margin: auto;
+	}
+	.p-link{
+		width: 220px;
+		margin: auto;
+	}
+	
+	.slider-tovar-link{
+		text-align: center;
+		margin-top: 15px;
+	}
+	.slider-tovar-show{
+		display: inline-block;
+		text-decoration: none !important;
+		font-size: 14px;
+		color: #999999;
+		border-bottom: 1px dashed #999999;
+		cursor: pointer;
+	}
+		.slider-tovar-show:hover{
+			color: #2191c9;
+			border-bottom: 1px dashed #2191c9;
+		}
+	.gallery-desc{
+		padding-top: 12%;
+	}
+	.gallery-show{
+		display: block;
+		width: 177px;
+		height: 40px;
+		margin: auto;
+		background: url(../images/gallery-show.png)no-repeat;
+		text-align: center;
+		text-decoration: none !important;
+		color: #fff !important;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+		.gallery-show:hover{
+			background: url(../images/gallery-show-h.png)no-repeat;
+		}
+	.review-block{
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+	.review-container{
+		width: 450px;
+		margin: auto;
+	}
+	.rev-text{
+		height: auto;
+		width: 62%;
+	}
+	.review-container>div{
+		margin-left: 0;
+	}
+	.question .main-h3{
+		font-size: 24px;
+		font-weight: 400;
+	}
+		.question .main-h3 span{
+			font-weight: 700;
+		}
+	.ques-field .input-block{
+		float: none;
+		margin-left: 0;
+	}
+	.field-block{
+		margin-left: 0;
+		width: 200px;
+		margin: auto;
+	}
+	.review{
+		margin-top: 25px;
+	}
+	.ques-field{
+		width:auto;
+	}
+	.feedback{
+		display: none;
+	}
+}
+@media(max-width: 600px){
+	.head h2{
+		font-size: 18px;
+		margin-top: 16px;
+	}
+	.tel-block{
+		font-size: 18px;
+	}
+	.head h2 button{
+		position: relative;
+		top: 2px;
+	}
+	.tel-block{
+		background: url(../images/tel-s.png)no-repeat;
+		background-position: 1px 6px;
+		padding-left: 25px;
+	}
+	.header{
+		padding-bottom: 0;
+	}
+	.question{
+		padding-bottom: 30px;
+	}
 }
