@@ -6245,6 +6245,9 @@ button.close {
   background: url(../images/ind-act.png);
   margin-bottom: -2px;
 }
+  .carousel-indicators-yel .active{
+    background: url(../images/ind-yel-act.png);
+  }
 .carousel-caption {
   position: absolute;
   right: 15%;

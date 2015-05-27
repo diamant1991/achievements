@@ -16,6 +16,9 @@ body{
 	color: #999;
 	text-align: center;
 }
+	.yel-head{
+		color: #444;
+	}
 .telephone{
 	width: 415px;
 }
@@ -40,15 +43,24 @@ body{
 	margin-left: 40px;
 	margin-top: 19px;
 	box-shadow: 0 -6px 0px -3px rgba(33, 145, 201, 1) inset;
-	-webkit-transition: 0.2s background-color ease-in-out;
-	-o-transition: 0.2s background-color ease-in-out;
-	transition: 0.2s background-color ease-in-out;
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
 }
 	.feedback:hover{
 		text-decoration: none;
 		color: #fff;
 		background-color: #0099ff;
 	}
+	.yel-feedback{
+		background-color: #ffff33;
+		color: #444;
+		box-shadow: 0 -6px 0px -3px rgba(204, 204, 0, 1) inset;
+	}
+		.yel-feedback:hover{
+			background-color: #cccc00;
+			box-shadow: 0 -6px 0px -3px rgba(255, 255, 51, 1) inset;
+		}
 .tel-block{
 	padding-left: 50px;
 	background: url(../images/tel.png)no-repeat;
@@ -58,6 +70,10 @@ body{
 	margin-top: 19px;
 	padding-top: 3px;
 }
+	.yel-tel-block{
+		background: url(../images/yel-tel.png)no-repeat;
+		color: #444;
+	}
 .nav ul li{
 	float: left;
 	list-style: none;
@@ -78,6 +94,8 @@ body{
 		.nav ul li a{
 			display: inline-block;
 			padding: 20px;
+			padding-top: 21px;
+			padding-bottom: 19px;
 			width: 140px;
 			text-align: center;
 			font-size: 18px;
@@ -103,10 +121,24 @@ body{
 				bottom: -3px;
 				left: 0;
 			}
+		.yel-nav ul li a{
+			color: #fff;
+		}
+			.yel-nav ul li a:hover,.yel-nav ul li a.active{
+				color: #444;
+				background-color: #ffff33;
+			}
+			.yel-nav ul li a:hover:after,.yel-nav ul li a.active:after{
+				border-bottom: 3px solid #cccc00;
+			}
 .main-nav{
 	background-color: #cecdcd;
 	border-bottom: 3px solid #999999;
 }
+	.yel-main-nav{
+		background-color: #444;
+		border-bottom: 3px solid #222;
+	}
 .sprite{
 	background-image: url(../images/carousel.png);
     background-repeat: no-repeat;
@@ -114,6 +146,9 @@ body{
     width: 32px;
 	height: 60px;
 }
+	.sprite-yel{
+		background-image: url(../images/carousel-yel.png);
+	}
 .carousel-left{
 	background-position: -5px -5px;
 }
@@ -168,6 +203,9 @@ body{
 		background-color: #2db1d7;
 		border: 2px solid transparent;
 	}
+	.order-link-yel:hover{
+		background-color: #cccc00;
+	}
 .info{
 	width: 980px;
 	height: 74%;
@@ -181,6 +219,9 @@ body{
 	text-align: center;
 	padding-top: 40px;
 }
+	.yel-info{
+		background: url(../images/geom-yel.png)no-repeat;
+	}
 .text{
 	font-size: 30px;
 	color: #fff;
@@ -192,6 +233,9 @@ body{
 	.text h2{
 		font-weight: 700;
 		margin-bottom: 0;
+	}
+	.yel-text{
+		color: #444;
 	}
 .carousel-inner img{
 	width: 100%;
